@@ -3,19 +3,41 @@ body {
   background: url("../style/images/bg-desktop.png"), $VeryDarkBlue;
   background-repeat: no-repeat;
   background-position: bottom;
-  justify-content: center;
   align-items: center;
 }
 
 .card {
   display: flex;
   height: auto;
-  align-items: flex-end;
-  padding: 0 5rem;
+  padding: 0 10%;
+  margin-top: 19rem;
 }
 
 .progressbar {
   margin-left: 2rem;
-  height: 8rem;
+  padding-left: 5%;
+  height: 9rem;
   width: 100%;
+  padding-top: 2rem;
+  align-items: start;
+}
+.bar {
+  width: 90%;
+}
+
+.gbleft {
+  top: -5rem;
+  right: 3rem;
+  border-radius: 15px 15px 0 15px;
+  &::after {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top: 1.5rem solid white;
+    border-left: 1.5rem solid transparent;
+
+    bottom: -1rem;
+    right: 0;
+  }
 }
