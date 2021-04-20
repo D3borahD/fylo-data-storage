@@ -77,4 +77,35 @@ body {
   min-width: 20.31rem;
   border-radius: 10px;
   margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bar {
+  width: 80%;
+  height: 1rem;
+  background: $VeryDarkBlue;
+  border-radius: 25px;
+  position: relative;
+}
+.bar-level {
+  position: absolute;
+  width: 81.5%;
+  height: 0.8rem;
+  background: $Gradient;
+  top: 0.1rem;
+  left: 0.1rem;
+  border-radius: 25px;
+  &::after {
+    content: "";
+    position: absolute;
+    height: 0.7rem;
+    width: 0.7rem;
+    background-color: $PaleBlue;
+    border-radius: 25px;
+    left: 100%;
+    transform: translateX(-125%);
+  }
 }

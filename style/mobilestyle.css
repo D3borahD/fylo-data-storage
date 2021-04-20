@@ -110,5 +110,47 @@ body {
   min-width: 20.31rem;
   border-radius: 10px;
   margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bar {
+  width: 80%;
+  height: 1rem;
+  background: #0c122c;
+  border-radius: 25px;
+  position: relative;
+}
+
+.bar-level {
+  position: absolute;
+  width: 81.5%;
+  height: 0.8rem;
+  background: linear-gradient(100deg, #ffa399, #ff4d97);
+  top: 0.1rem;
+  left: 0.1rem;
+  border-radius: 25px;
+}
+
+.bar-level::after {
+  content: "";
+  position: absolute;
+  height: 0.7rem;
+  width: 0.7rem;
+  background-color: #dddbff;
+  border-radius: 25px;
+  left: 100%;
+  -webkit-transform: translateX(-125%);
+          transform: translateX(-125%);
 }
 /*# sourceMappingURL=mobilestyle.css.map */

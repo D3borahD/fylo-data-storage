@@ -9,7 +9,7 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="style/images/favicon-32x32.png"
     />
 
     <title>Frontend Mentor | Fylo data storage component</title>
@@ -38,14 +38,16 @@
       </div>
       <div class="progressbar">
         <p>You’ve used 815 GB of your storage</p>
-        <div class="bar"></div>
-        <div class="bar-level"></div>
-        <div class="bar-curcor"></div>
+        <div class="bar">
+          <div class="bar-level"></div>
+          <div class="bar-cursor"></div>
+          <p class="0gb">0 GB</p>
+          <p class="maxgb">1000 GB</p>
+        </div>
+
         <div class="gbleft">
           <p><em>185</em> GB Left</p>
         </div>
-        <p>0 GB</p>
-        <p>1000 GB</p>
       </div>
     </section>
     <footer>

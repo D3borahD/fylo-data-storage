@@ -2,7 +2,7 @@
 
 // ## Colors
 // ### Primary
-$Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+$Gradient: linear-gradient(100deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
 
 // ### Neutral
 $PaleBlue: hsl(243, 100%, 93%);
