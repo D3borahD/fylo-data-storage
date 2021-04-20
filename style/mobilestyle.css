@@ -34,8 +34,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -43,9 +41,9 @@ body {
 }
 
 .card {
+  margin-top: 10rem;
   height: 23.75rem;
   width: 85%;
-  padding-top: 5rem;
 }
 
 .marque,
@@ -106,7 +104,8 @@ body {
 }
 
 .progressbar {
-  height: 6.68rem;
+  position: relative;
+  height: 10rem;
   min-width: 20.31rem;
   border-radius: 10px;
   margin-top: 1rem;
@@ -117,8 +116,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -126,6 +126,7 @@ body {
 
 .bar {
   width: 80%;
+  margin: 1.5rem 0 3.5rem 0;
   height: 1rem;
   background: #0c122c;
   border-radius: 25px;
@@ -152,5 +153,51 @@ body {
   left: 100%;
   -webkit-transform: translateX(-125%);
           transform: translateX(-125%);
+}
+
+em {
+  font-weight: 700;
+}
+
+.mingb,
+.maxgb {
+  position: absolute;
+  bottom: -1.5rem;
+}
+
+.maxgb {
+  right: 0;
+}
+
+.gbleft {
+  position: absolute;
+  bottom: 0;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  height: 4.375rem;
+  width: 10.94rem;
+  background-color: white;
+  border-radius: 15px;
+  text-transform: uppercase;
+  padding: 0 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #848794;
+}
+
+.gbleft em {
+  color: black;
+  font-size: 2.5rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 2rem;
 }
 /*# sourceMappingURL=mobilestyle.css.map */
