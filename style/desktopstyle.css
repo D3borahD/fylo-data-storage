@@ -1,1 +1,16 @@
-/* No CSS *//*# sourceMappingURL=desktopstyle.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+body {
+  background: url("../style/images/bg-desktop.png"), #0c122c;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+/*# sourceMappingURL=desktopstyle.css.map */

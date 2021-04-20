@@ -5,7 +5,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
 body {
   font-size: 14px;
   font-family: "Raleway", sans-serif;
+  background: url("../style/images/bg-mobile.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

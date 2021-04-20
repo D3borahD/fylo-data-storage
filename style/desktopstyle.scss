@@ -1,1 +1,6 @@
-
+@import "variable";
+body {
+  background: url("../style/images/bg-desktop.png"), $VeryDarkBlue;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
