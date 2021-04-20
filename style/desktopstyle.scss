@@ -4,8 +4,18 @@ body {
   background-repeat: no-repeat;
   background-position: bottom;
   justify-content: center;
+  align-items: center;
 }
 
 .card {
   display: flex;
+  height: auto;
+  align-items: flex-end;
+  padding: 0 5rem;
+}
+
+.progressbar {
+  margin-left: 2rem;
+  height: 8rem;
+  width: 100%;
 }
