@@ -12,5 +12,14 @@ body {
   background: url("../style/images/bg-desktop.png"), #0c122c;
   background-repeat: no-repeat;
   background-position: bottom;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=desktopstyle.css.map */

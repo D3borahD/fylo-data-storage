@@ -18,4 +18,60 @@ body {
   background: url("../style/images/bg-mobile.png");
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card {
+  height: 23.75rem;
+  width: 85%;
+}
+
+.marque,
+.progressbar {
+  background-color: $DarkBlue;
+}
+
+.marque {
+  height: 11rem;
+  min-width: 20.31rem;
+  border-radius: 10px 90px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  justify-content: space-around;
+
+  #logo {
+    width: 55%;
+    margin-bottom: 1rem;
+  }
+  .element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+  }
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: $VeryDarkBlue;
+  text-align: center;
+  position: relative;
+  img {
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+  }
+}
+
+.progressbar {
+  height: 6.68rem;
+  border-radius: 10px;
+  margin-top: 1rem;
 }

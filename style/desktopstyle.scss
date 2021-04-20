@@ -3,4 +3,9 @@ body {
   background: url("../style/images/bg-desktop.png"), $VeryDarkBlue;
   background-repeat: no-repeat;
   background-position: bottom;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
 }
